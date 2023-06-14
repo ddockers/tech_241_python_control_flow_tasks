@@ -1,14 +1,9 @@
-# Control flow
+# Bonus: make it so the input has to be lower case and a string (movie ratings)
 
-# Like giving Python a recipe or order to do things
-
-# Conditional statements
-
-# Asking a question, and making a decision based on the answer. If this is true, do this thing. If not, do something else.
-
-# Cinema task
 print("How old are you?")
-age = int(input())
+age = str(input().lower())
+
+
 
 if age >= 18:
     print("You can watch all movies!")
